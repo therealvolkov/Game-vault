@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Vault</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <style>
+    body {
+      font-family: "Audiowide", sans-serif;
+      background-color: rgb(16,16,22);
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      border: 2px solid #b85502;
+      border-left-width: 7px;
+      border-radius: 15px;
+      box-shadow: -2px 4px 8px hsl(26.8,100%,34.1%), 2px 4px 8px hsl(26.8,100%,34.1%);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+
+    .top-bar {
+      display: flex;
+      align-items: center;
+    }
+
+    #gvtitle {
+      margin: 0;
+      font-size: 35px;
+
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #searchbar {
+      padding: 5px 10px;
+      font-size: 1rem;
+      border: 2px solid black;
+      border-radius: 10px;
+      outline: none;
+    }
+
+    #searchbar::placeholder {
+      color: gray;
+      font-size: 0.9rem;
+    }
+    #about {
+      border: 2px solid #b85502;
+      border-radius: 10px;
+    }
+    h1 {
+      color: #b85502;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <h1 id="gvtitle">Game Vault</h1>
+    </div>
+    <div class="top-buttons">
+      <a href="" style="color: #b85502;">
+        <div class="about">
+          <p id="•about•">
+            about
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
